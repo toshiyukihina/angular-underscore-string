@@ -5,7 +5,9 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'angular-underscore',
+    'underscore.string'
   ])
   .config(function ($routeProvider) {
     $routeProvider
